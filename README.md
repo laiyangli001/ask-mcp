@@ -58,7 +58,7 @@ Each service directory is an independent npm package (`src/index.ts` → `dist/i
 
 ## Requirements
 
-- Node.js >= 18
+- Node.js >= 20
 - A working login state for the target site (each service persists its own browser profile under the service directory, generated at runtime)
 
 ## Install

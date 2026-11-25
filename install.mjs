@@ -32,8 +32,8 @@ function run(cmd, args, cwd) {
 
 function main() {
   const [major] = process.versions.node.split(".").map(Number);
-  if (major < 18) {
-    console.error(`✗ Node.js >= 18 required, current: ${process.version}`);
+  if (major < 20) {
+    console.error(`✗ Node.js >= 20 required, current: ${process.version}`);
     process.exit(1);
   }
 
